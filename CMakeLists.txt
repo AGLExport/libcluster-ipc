@@ -6,7 +6,7 @@ project(cluster_ipc C)
 cmake_minimum_required(VERSION 2.8)
 
 # set gcc flags
-set(CMAKE_C_FLAGS "-Wall -O2")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O2")
 
 # Build option for DEBUG
 option(DEBUG_BUILD "This is debug build." OFF)
